@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit";
+    background-color: #0d192c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-rect{
+    width: 350px;
+    height: 596px;
+    background-color: #15263f;
+    border-radius: 15px;
+}
+
+.main-img{
+    width: 302px;
+    height: 302px;
+    margin: 25px 0 20px 24px;
+    border-radius: 10px;
+}
+
+h1{
+    margin-left: 23px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h2:hover{
+    cursor: pointer;
+    color: #00fff8;
+}
+
+.benefit-text{
+    margin-left: 23px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #8bacd9;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.eth-price,
+.eth-time {
+    display: flex;
+    align-items: center;
+    gap: 7.7px;
+}
+
+.eth-price{
+    color: #00fff8;
+    font-weight: 600;
+    margin-left: 23px;
+}
+
+.eth-time{
+    color: #8bacd9;
+    margin-right: 23px;
+}
+
+hr{
+    border: 0.5px solid #2e405a;
+    width: 87%;
+    margin-left: 23px;
+    margin-bottom: 16px;
+}
+
+.author-box{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 23px;
+}
+
+.author-img {
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.author-box p{
+    color: #8bacd9;
+}
+
+.author-name{
+    color: white;
+}
+
+.author-name:hover{
+    cursor: pointer;
+    color: #00fff8;
+}
